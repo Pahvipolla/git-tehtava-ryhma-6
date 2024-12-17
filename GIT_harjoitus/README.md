@@ -1,18 +1,18 @@
-## Getting Started
+## Aloittaminen
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Tervetuloa VS Code Java -maailmaan. Tässä on ohjeet, jotka auttavat sinua pääsemään alkuun Java-koodin kirjoittamisessa Visual Studio Codessa.
 
-## Folder Structure
+## Kansion rakenne
 
-The workspace contains two folders by default, where:
+Työtila sisältää oletuksena kaksi kansiota, joissa:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `src`: kansio lähdekoodien hallintaan
+- `lib`: kansio riippuvuuksien hallintaan
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Käännetyt ulostulotiedostot luodaan oletuksena `bin`-kansioon.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+> Jos haluat muokata kansion rakennetta, avaa `.vscode/settings.json` ja päivitä siihen liittyvät asetukset.
 
-## Dependency Management
+## Riippuvuuksien hallinta
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+`JAVA PROJECTS` -näkymä antaa sinun hallita riippuvuuksiasi. Lisätietoja löytyy [täältä](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
