@@ -1,0 +1,1 @@
+Kaikki oleellinen on GIT_Harjoitus kansiossa, joten turha tätä filua on ihmetellä.
