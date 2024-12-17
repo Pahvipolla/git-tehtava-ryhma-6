@@ -1,18 +1,17 @@
-## Aloittaminen
+Koska projekti sai olla mitä tahansa, niin tässäpä sitten projektina klassinen hello world... hieman tuunattuna, mutta edelleen yhtälailla turhake ohjelmaksi.
 
-Tervetuloa VS Code Java -maailmaan. Tässä on ohjeet, jotka auttavat sinua pääsemään alkuun Java-koodin kirjoittamisessa Visual Studio Codessa.
+Ohjelma lataa greetings.json tiedoston annetusta URL:sta ja käyttää sitten json-simple kirjastoa json tiedon lukemiseen. Kaivaa tiedostosta eri kielivaihtoehdot ja antaa käyttäjän valita millä kielellä tulee hello world.
 
-## Kansion rakenne
+Jos olet GIT_harjoitus kansiossa, niin kääntäminen ja ajaminen:
 
-Työtila sisältää oletuksena kaksi kansiota, joissa:
+Kääntäminen
+ javac -cp ".;lib/json-simple-1.1.1.jar" src/App.java
 
-- `src`: kansio lähdekoodien hallintaan
-- `lib`: kansio riippuvuuksien hallintaan
+Ajaminen:
+java -cp ".;lib/json-simple-1.1.1.jar;src"
 
-Käännetyt ulostulotiedostot luodaan oletuksena `bin`-kansioon.
+Jos menet ja sotket kansiopolkuja, jne, niin korjaa kääntämisen ja ajamisen käskyt vastaavasti.
 
-> Jos haluat muokata kansion rakennetta, avaa `.vscode/settings.json` ja päivitä siihen liittyvät asetukset.
+greetings.json tiedoston voit jemmata mille tahansa web-sivustolle. Tässä esimerkissä käytetään osoitetta: https://aivopieru.net/greetings.json
 
-## Riippuvuuksien hallinta
-
-`JAVA PROJECTS` -näkymä antaa sinun hallita riippuvuuksiasi. Lisätietoja löytyy [täältä](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Ja ei muuta ku räveltämään.
